@@ -27,5 +27,16 @@ class Solution {
         
         return output_array;
         
+        /*
+        Other way: the solution for follow up
+        put the left products result on the output array 
+        
+        int R = 1;
+        for (int i= length-1; i>=0; i--) {
+            output_array[i] = output_array[i] * R;
+            R = R * nums[i]; 
+        }
+        
+        */
     }
 }
