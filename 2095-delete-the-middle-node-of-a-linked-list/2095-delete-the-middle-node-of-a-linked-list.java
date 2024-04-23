@@ -77,6 +77,7 @@ class Solution {
         
         // prev [4,1,2,6]
         // current [7,1,2,6]
+        
         return head; // 1 -> 3 -> 4 -> 1 -> 2 -> 6
         
     }
